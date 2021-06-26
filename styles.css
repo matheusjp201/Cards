@@ -1,0 +1,47 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+}
+
+.linha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartao {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+}
+
+.cartao:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.cartao p {
+  color: #a3a5ae;
+  font-size: 16px;
+}
+
+.image {
+  float: right;
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.azul {
+  border-left: 3px solid #4895ff;
+}
+
+.verde {
+  border-left: 3px solid #3bb54a;
+}
+
+.vermelho {
+  border-left: 3px solid #b3404a;
+}
